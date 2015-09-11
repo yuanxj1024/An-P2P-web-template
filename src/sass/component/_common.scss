@@ -1,0 +1,117 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+  color: #333;
+}
+.gx-btn{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: 0;
+  text-decoration: none;
+  padding: 7px 14px;
+  color: #FFF;
+  background: #999;
+  border: 1px solid #eee;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  font-weight: normal;
+  line-height: 1.5;
+  vertical-align: middle;
+  -moz-transition: background-color .3s ease-out, border-color .3s ease-out;
+  -o-transition: background-color .3s ease-out, border-color .3s ease-out;
+  -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+  transition: background-color .3s ease-out, border-color .3s ease-out;
+}
+.gx-btn:hover,
+.gx-btn:focus {
+  background-color: #717171;
+  text-decoration: none;
+}
+.gx-btn:active,
+.gx-btn-actived {
+  background-color: #717171;
+  border-color: #717171;
+  box-shadow: inset 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+.gx-btn[disabled],
+.gx-btn-disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  border-color: transparent;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  box-shadow: none;
+}
+
+.pay-box{
+  background: #fff;
+  width: 500px;
+  padding:40px 50px;
+  margin: 0 auto;
+  font-size: 17px;
+  display: none;
+}
+.pay-num{
+  margin-bottom: 20px;
+  span{
+    color: #ff530e;
+  }
+}
+.pay-item{
+  margin-bottom: 20px;
+  label{
+    display: inline-block;
+    line-height: 44px;
+  }
+  .pay-pwd{
+    display: inline-block;
+    height: 44px;
+    padding: 7px 14px;
+    border: 1px solid #dfdfdf;
+    background: #FFF;
+    outline: none;
+    width: 265px;
+  }
+}
+.pay-tips{
+  margin-bottom: 30px;
+  span{
+    color: #ff530e;
+  }
+  a{
+    color: #2361bd;
+  }
+}
+
+.pay-btn{
+  text-align: center;
+  .gx-btn{
+    padding: 10px 35px;
+    margin: 0 25px;
+  }
+  .gx-yes{
+    background: #f19715;
+    border-color: #f19715;
+  }
+  .gx-yes:hover,
+  .gx-yes:focus,
+  .gx-yes:active{
+    background: #C77B0C;
+    border-color: #C77B0C;
+  }
+}
+.mb-30{
+  margin-bottom: 30px;
+}

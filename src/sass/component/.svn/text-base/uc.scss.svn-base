@@ -1,0 +1,342 @@
+/*买入成功*/
+.buy-succeed{
+  width:100%;
+  background: #fff;
+  margin: 30px 0;
+  padding: 220px 0 220px 255px;
+  overflow: hidden;
+  .buy-succeed-icon{
+    width: 138px;
+    height: 103px;
+    background: url(../../img/right-icon.png) no-repeat;
+    background-size: 100%;
+  }
+  .buy-succeed-word{
+    padding-top: 20px;
+    padding-left: 30px;
+    p{
+      font-size: 14px;
+      color: #646464;
+      span{
+        color: #0082c9;
+        font-size: 24px;
+      }
+      a,b{
+        color: #f19715;
+        padding: 0 5px;
+      }
+      b{
+        font-weight: normal;
+        padding-right: 5px;
+      }
+    }
+  }
+}
+
+/*我的投资记录*/
+.invite-round{
+  width: 850px;
+  margin-left: 15px;
+  .invite-round-title{
+    background: #fff;
+    h2{
+      font-size: 16px;
+      color: #666666;
+      padding: 23px 0 0 20px;
+      font-weight: normal;
+    }
+    .invite-title-group{
+      overflow: hidden;
+      padding-bottom: 20px;
+      .invite-title-item:last-child{
+        border: none;
+      }
+      .invite-title-item{
+        padding:0 58px 35px;
+        text-align: center;
+        border-right: 1px solid #eaeaea;
+        float: left;
+        b{
+          color: #646464;
+          font-size: 20px;
+          display: block;
+          padding-top: 35px;
+        }
+        span{
+          display: block;
+          color: #646464;
+          font-size: 14px;
+          padding-top: 10px;
+        }
+        .invite-title-icon{
+          padding:20px 0 0 70px;
+          a{
+            display: block;
+            color: #fff;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-top: 10px;
+          }
+          .btnYellow{
+            background: #f19715;
+            &:hover{
+              background: #e68f12;
+            }
+          }
+          .btnBlue{
+            background: #0082c9;
+            &:hover{
+              background: #047ec1;
+            }
+          }
+        }
+      }
+    }
+  }
+  .round-list{
+    background: #fff;
+    .invite-round-title{
+      width: 100%;
+      height: 40px;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 14px;
+      color: #333333;
+      line-height: 40px;
+      padding-left: 20px;
+      background: #fafafa;
+    }
+    .invite-found-h{
+      font-size: 14px;
+      color: #666;
+      padding: 25px 0 0 20px;
+      font-weight: normal;
+    }
+    .investment{
+      margin-top: 0;
+      .search-wrap{
+        padding: 15px 0 0 20px;
+      }
+    }
+    .round-tab{
+      padding: 22px;
+      table{
+        border: 1px solid #eaeaea;
+        width: 100%;
+        text-align: center;
+        tr{
+          height: 40px;
+          line-height: 40px;
+          td{
+            border: 1px solid #eaeaea;
+            color: #646464;
+            a{
+              color: #646464;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+.pageing{
+  .pageing-left{
+    padding: 15px 0 40px 13px;
+    a{
+      display: block;
+      width:23px;
+      height: 23px;
+      border-radius: 5px;
+      background: #fff;
+      color: #646464;
+      font-size: 14px;
+      text-align: center;
+      line-height: 23px;
+      float: left;
+      margin-left: 7px;
+      &.hover{
+        background: #b1b1b1;
+        color: #fff;
+      }
+      i{
+        display: block;
+        width:20px;
+        height: 20px;
+        margin: 4px 0 0 5px;
+      }
+      .page-left{
+        background: url(../../img/page-left.png) no-repeat;
+        background-size: 60%;
+      }
+      .page-left1{
+        background: url(../../img/page-left1.png) no-repeat;
+        background-size: 49%;
+      }
+      .page-right{
+        background: url(../../img/page-right.png) no-repeat;
+        background-size: 60%;
+      }
+      .page-right1{
+        background: url(../../img/page-right1.png) no-repeat;
+        background-size: 49%;
+      }
+    }
+  }
+  .pageing-right{
+    li{
+      float: left;
+      font-size: 14px;
+      color: #646464;
+      padding:15px 20px 0 0;
+      span{
+        color: #da0000;
+      }
+    }
+  }
+}
+/*弹窗*/
+.fund-flow{
+  width: 500px;
+  background: #fff;
+  padding: 60px 25px;
+  h2{
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    padding-left: 25px;
+    padding-bottom: 15px;
+  }
+  .fund-flow-list{
+    height: 400px;
+    overflow-y: scroll;
+    ul{
+      margin-top: 10px;
+      background: #f0f0f0;
+      padding: 0 25px 25px;
+      li{
+        font-size: 14px;
+        color: #646464;
+        padding-top: 25px;
+        b{
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
+/*身份认证*/
+.identity-btn{
+  width: 240px;
+  height: 40px;
+  border: none;
+  font-size: 14px;
+  margin-left: 98px;
+}
+
+/*赎回列表*/
+.atone-list{
+  padding-bottom: 20px;
+  h2{
+    font-size: 16px;
+    color: #666666;
+    font-weight: normal;
+  }
+  .atone-list-group{
+    padding-top: 20px;
+    label{
+      font-size: 16px;
+      color: #666;
+    }
+    .atone-label{
+      margin-top: 55px;
+    }
+    .atone-list-item{
+      overflow: hidden;
+      margin-top: 25px;
+      .atone-list-detail{
+        border:1px solid #eaeaea;
+        width: 766px;
+        margin-left: 15px;
+        padding:25px 0 25px 25px;
+        h3{
+          font-weight: normal;
+          font-size: 18px;
+          color: #333333;
+          span{
+            color: #666666;
+            font-size: 12px;
+            padding-left: 5px;
+          }
+        }
+        ul{
+          padding-top: 25px;
+          li:first-child{
+            padding-left: 0;
+          }
+          li{
+            font-size: 14px;
+            color: #666666;
+            padding-left: 100px;
+            float: left;
+            span{
+              font-size: 22px;
+              color: #f73900;
+            }
+            b{
+              display: block;
+              padding-top: 8px;
+              font-weight: normal;
+            }
+          }
+        }
+        &.hover{
+          background: #f0f0f0;
+        }
+      }
+    }
+  }
+  .atone-word{
+    font-size: 14px;
+    color: #666666;
+    padding: 25px 0;
+    span{
+      color: #f73900;
+    }
+  }
+  .atone-btn{
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+  }
+  .atone-word-list{
+    padding-top:15px;
+    li{
+      font-size: 12px;
+      color: #666666;
+      padding-top: 15px;
+    }
+  }
+}
+.forget-password{
+  width: 280px;
+  text-align: right;
+  a{
+
+    font-size: 14px;
+    color:#666;
+  }
+
+}
+.identity-pop{
+  padding-bottom: 30px;
+  p{
+    font-size: 24px;
+    color: #333;
+    padding: 30px 0;
+    text-align: center;
+  }
+}

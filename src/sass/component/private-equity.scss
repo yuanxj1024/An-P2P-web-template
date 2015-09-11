@@ -1,0 +1,43 @@
+
+
+.private-info-wrap{
+  width: 930px;
+  .item{
+    border: 1px solid #D6D6D6;
+    margin-bottom: 32px;
+    .name{
+      background-color: #C7C6C6;
+      height: 50px;
+      line-height: 50px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .info-wrap{
+      position: relative;
+      padding: 15px 32px;
+      li{
+        margin: 5px 0;
+      }
+      .attr{
+        li{
+          display: inline-block;
+          float: left;
+          min-width: 275px;
+        }
+      }
+      .more{
+        position: absolute;
+        top: 80px;
+        right: 32px;
+        color: #1483C6;
+      }
+      .content{
+        margin-top: 32px;
+        p{
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+}

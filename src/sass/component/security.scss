@@ -1,0 +1,96 @@
+
+.security-info-wrap{
+
+  background-color: #fff;
+  .item{
+    @include flexbox();
+    border-bottom: 1px solid #1483C6;
+    padding: 30px 0;
+    width: 830px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    &.reverse{
+      @include flex-direction(row-reverse);
+      .info{
+        margin-left: 0;
+        margin-right: 40px;
+      }
+
+    }
+
+    .icon{
+      @include flex(0,0,auto);
+      width: 215px;
+      height: 195px;
+      background-repeat: no-repeat;
+      background-position: center;
+      &.icon1{
+        background-image: url(/img/security-icon1.png);
+      }
+      &.icon2{
+        background-image: url(/img/security-icon2.png);
+
+      }
+      &.icon3{
+        background-image: url(/img/security-icon3.png);
+
+      }
+      &.icon4{
+        background-image: url(/img/security-icon4.png);
+
+      }
+    }
+
+    .info{
+      @include flex(1,1,auto);
+      font-size: 14px;
+      margin-left: 40px;
+      h4{
+        margin-bottom: 30px;
+      }
+      p{
+        margin: 5px 0;
+        line-height: 24px;
+      }
+    }
+  }
+  .bottom{
+    width: 830px;
+    height: 490px;
+    margin: 30px auto;
+    position: relative;
+    .last-icon{
+      margin: 0 auto;
+      width: 780px;
+      height: 350px;
+      background-image: url(/img/safe-back.png);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .text{
+      color: $main-font-color;
+      position: absolute;
+      top:370px;
+      width: 150px;
+      text-align: center;
+
+      &.text1{
+        left:10px;
+      }
+      &.text2{
+        left:232px;
+
+      }
+      &.text3{
+        left:455px;
+
+      }
+      &.text4{
+        left:672px;
+      }
+    }
+
+  }
+
+}

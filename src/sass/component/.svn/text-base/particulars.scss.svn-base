@@ -1,0 +1,192 @@
+.container{
+  width: 1010px;
+  margin: 0 auto;
+}
+.particulars{
+  background: #f0f0f0;
+  overflow: hidden;
+  .particulars-title{
+    background: #fff;
+    overflow: hidden;
+    .particulars-title-left{
+      border-right: 1px solid #e6e6e6;
+      padding-bottom: 30px;
+      h2{
+        font-size: 20px;
+        counter-reset: #333333;
+        padding: 15px 0 20px 35px;
+        span{
+          font-size: 12px;
+          color: #666666;
+        }
+      }
+      .particulars-icon-list{
+        overflow: hidden;
+        .particulars-title-icon:last-child{
+          background: none;
+        }
+        .particulars-title-icon{
+          width: 155px;
+          float: left;
+          background: url(../../img/shadow.png) no-repeat right;
+          &:hover .title-icon-first{
+            background: url(../../img/profit.png) no-repeat;
+            background-size: 100%;
+          }
+          &:hover .title-icon-two{
+            background: url(../../img/invest.png) no-repeat;
+            background-size: 100%;
+          }
+          &:hover .title-icon-three{
+            background: url(../../img/optional.png) no-repeat;
+            background-size: 100%;
+          }
+          &:hover .title-icon-four{
+            background: url(../../img/sale.png) no-repeat;
+            background-size: 100%;
+          }
+          dt{
+            width: 58px;
+            height:58px;
+            margin: 0 auto;
+          }
+          .title-icon-first{
+            background: url(../../img/profit-hover.png) no-repeat;
+            background-size: 100%;
+          }
+          .title-icon-two{
+            background: url(../../img/invest-hover.png) no-repeat;
+            background-size: 100%;
+          }
+          .title-icon-three{
+            background: url(../../img/optional-hover.png) no-repeat;
+            background-size: 100%;
+          }
+          .title-icon-four{
+            background: url(../../img/sale-hover.png) no-repeat;
+            background-size: 100%;
+          }
+          dd{
+            text-align: center;
+            span{
+              font-size: 20px;
+              color: #ff530e;
+              font-weight: bold;
+              display: block;
+              padding-top: 20px;
+            }
+            b{
+              font-size: 16px;
+              padding-top: 5px;
+              color: #646464;
+              font-weight: bold;
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    .particulars-title-right{
+      padding: 20px 0 0 77px;
+      h2{
+        font-size: 16px;
+        color: #333;
+      }
+      .recharge{
+        padding-top: 5px;
+        span{
+          color: #ff530e;
+          font-size: 22px;
+        }
+        a{
+          font-size: 16px;
+          color: #005aac;
+          padding-left: 75px;
+        }
+      }
+      .particulars-input{
+        padding-top: 5px;
+        .particulars-text{
+          width: 205px;
+          height: 35px;
+          background: #ececec;
+          border: none;
+          font-size: 16px;
+          padding-left: 10px;
+        }
+        label{
+          font-size: 14px;
+          color: #646464;
+        }
+      }
+      p{
+        font-size: 14px;
+        color: #ff530e;
+        padding-top: 5px;
+        i{
+          width: 16px;
+          height: 16px;
+          display: block;
+          float: left;
+          background: url(../../img/icon-p.png) no-repeat;
+          background-size: 100%;
+          margin: 3px 4px 0 0;
+        }
+        span{
+          display: block;
+          float: left;
+        }
+      }
+      .particulars-btn{
+        width:240px;
+        height:50px;
+        background: #f19715;
+        font-size: 18px;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+/*详情列表*/
+.annex{
+  dl{
+    width: 115px;
+    float: left;
+    padding-top: 30px;
+    margin-left: 40px;
+    dt{
+      width: 50px;
+      margin: 0 auto;
+      img{
+        width: 50px;
+        height: 68px;
+      }
+    }
+    dd{
+      text-align: center;
+      p{
+        width: 115px;
+        border-collapse:collapse;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        padding-top: 10px;
+      }
+      a{
+        padding-top: 10px;
+        display: block;
+        font-size: 14px;
+        color: #005bac;
+      }
+    }
+  }
+}
+
+
+
+
+

@@ -1,0 +1,100 @@
+.container{
+  width: 1010px;
+  margin: 0 auto;
+}
+.footer{
+  background: #979ea4;
+  width: 100%;
+  overflow: hidden;
+  .footer-nav:first-child{
+    padding-left: 0;
+  }
+  .footer-nav{
+    padding: 17px 0 30px 120px;
+    li{
+      overflow: hidden;
+      padding-top: 13px;
+      font-size: 14px;
+      color: #fff;
+      h2{
+        font-size: 18px;
+        color: #fff;
+        float: left;
+        padding-left: 5px;
+      }
+      i{
+        display: block;
+        float: left;
+      }
+      .foot-about{
+        width: 20px;
+        height: 22px;
+        background: url(../../img/about.png) no-repeat;
+        background-size:100%;
+      }
+      .foot-safe{
+        width: 18px;
+        height: 22px;
+        background: url(../../img/safe.png) no-repeat;
+        background-size:100%;
+      }
+      .foot-phone{
+        width: 16px;
+        height: 22px;
+        background: url(../../img/phone.png) no-repeat;
+        background-size:100%;
+      }
+      .foot-wechat{
+        width: 27px;
+        height: 23px;
+        background: url(../../img/WeChat.png) no-repeat;
+        background-size:100%;
+      }
+      a{
+        font-size: 14px;
+        color: #fff;
+        padding-left: 25px;
+        &:hover{
+          color: #0073c7;
+        }
+      }
+    }
+    .code-foot{
+      padding-left: 70px;
+      img{
+        width: 84px;
+        height: 84px;
+      }
+    }
+  }
+}
+.footer-bottom{
+  border-top:1px solid #b6bbbf;
+  background: #979ea4;
+  padding-bottom: 17px;
+  p{
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 17px;
+    img{
+      width: 45px;
+      height: 16px;
+      display: block;
+      float: left;
+      padding-right: 6px;
+      margin-top: 3px;
+    }
+    span{
+      display: block;
+      float: left;
+    }
+  }
+}
+
+
+
+
+
+
+
